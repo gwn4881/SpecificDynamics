@@ -2,66 +2,73 @@
 overall style page for the site
 all basic style should be in hear but nothing that is particular to a specific page
 */
-
-body{
-    background-color: rgb(195, 207, 219);
+body {
+    background-color: rgb(223, 229, 235);
     font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    padding: 0;
+    height: 100%;
+    min-height: 931px;
 }
 
 .container{
     margin: 25px auto;
     width: 90%;
     max-width: 1500px;
-    position: relative;
-    z-index: 0;
+    padding: 0;
 }
 
 /*
 nav
 */
-
 nav{
-    z-index: 2;
-}
-.mainnav .parentnav{
-    display: flex;
-    justify-content: flex-start;
-    list-style: none;
-    font-size: 25px;
-    background-color: rgb(153, 116, 187);
-}
-.mainnav .parentnav *{
+    background-color: rgb(145, 77, 145);
     margin: 0px;
-    padding-left: 5px;
-    padding-right: 5px;
+}
+nav *{
     color: aliceblue;
     text-decoration: none;
-}
-.mainnav .parentnav .navcat{
-    border: 2px solid black;
-    height: 30px;
-    max-width: 90px;
-    margin-left: 10px;
-}
-
-.mainnav .parentnav:hover .subnav{
-    display: block;
-    width: 600px;
-    max-width: fit-content;
-    max-height: fit-content;
-}
-
-.mainnav .parentnav .subnav{
     list-style: none;
-    padding: 8px;
-    margin: 0px;
-    display: none;
-    background-color: rgb(153, 116, 187);
-
+    font-size: 27px;
 }
-
-.mainnav li:hover{
-    background-color: purple;
-    color: rgb(216, 223, 230);
-    transition: 0.6s;
+nav .page{
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+nav .layer1 .page:hover, .layer2:hover, .currentpage{
+    color: rgb(204, 226, 247);
+    background-color: rgb(151, 82, 151);
+    border: 2px groove blueviolet;
+    border-radius: 2px;
+    transition: 0.7s;
+    
+}
+.mainnav{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.mainnav .layer1, .layer1sm{
+    background-color: rgb(155, 95, 155);
+}
+.mainnav .layer1sm:hover .subnav{
+    display: block;
+}
+.subnav{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    position: absolute;
+    background-color: rgba(145, 97, 145, 0.8);
+    display: none;
+}
+footer{
+    position: absolute;
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(155, 95, 155);
+    width: 100%;
+    bottom: 0px;
 }

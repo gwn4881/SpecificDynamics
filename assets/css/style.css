@@ -3,7 +3,7 @@ overall style page for the site
 all basic style should be in hear but nothing that is particular to a specific page
 */
 body {
-    background-color: rgb(223, 229, 235);
+    background-color: rgba(161, 161, 161, 0.7);
     font-size: 18px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
@@ -15,13 +15,15 @@ body {
 
 .container{
     margin: 25px auto;
-    margin-top: 0px;
     width: 90%;
     min-height: 700px;
     height: 100%;
     max-width: 1500px;
-    background-color: rgba(194, 199, 204, 0.6);
-    margin-bottom: 20px;
+    background-color: rgb(226, 228, 231);
+    margin-top: 0px;
+    border: 1px solid rgb(151, 151, 151);
+    margin-bottom: 10px;
+    color: black
 }
 .container *{
     margin-left: 10px;
@@ -29,9 +31,14 @@ body {
 }
 .container h1{
     border: 3px solid grey;
-    background-color: rgba(161, 161, 161, 0.7);
+    background-color: rgba(209, 209, 209, 0.7);
     width: fit-content;
     margin-left: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.container p, .container ul{
+    font-size: 18pt;
 }
 /*
 page content classes
@@ -43,7 +50,8 @@ page content classes
 header
 */
 header{
-    background-color: rgba(194, 199, 204, 0.6);
+    background-color: rgb(226, 228, 231);;
+    margin-bottom: 45px;
 }
 header .name_logo{
     display: flex;
@@ -120,4 +128,16 @@ footer{
     background-color: rgb(155, 95, 155);
     width: 100%;
     bottom: 0px;
+}
+
+
+/*
+staff pages
+*/
+.staff_flex{
+    display: flex;
+    margin: 0px;
+}
+img{
+    border: 2px solid black;
 }

@@ -7,15 +7,50 @@ body {
     font-size: 18px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     height: 100%;
     min-height: 931px;
 }
 
 .container{
     margin: 25px auto;
+    margin-top: 0px;
     width: 90%;
+    min-height: 800px;
+    height: 100%;
     max-width: 1500px;
+    padding: 0px;
+    background-color: rgb(194, 199, 204);
+    margin-bottom: 20px;
+}
+
+/*
+page content classes
+*/
+
+
+
+/*
+header
+*/
+header{
+    background-color: rgb(194, 199, 204);
+}
+header .name_logo{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+    
+}
+header h1{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    align-self: center;
+}
+header img{
     padding: 0;
 }
 
@@ -25,12 +60,15 @@ nav
 nav{
     background-color: rgb(145, 77, 145);
     margin: 0px;
+    padding: 0px;
 }
 nav *{
     color: aliceblue;
     text-decoration: none;
     list-style: none;
     font-size: 27px;
+    padding: 0;
+    margin: 0;
 }
 nav .page{
     margin: 0;
@@ -64,6 +102,9 @@ nav .layer1 .page:hover, .layer2:hover, .currentpage{
     background-color: rgba(145, 97, 145, 0.8);
     display: none;
 }
+/*
+footer
+*/
 footer{
     position: absolute;
     display: flex;

@@ -28,7 +28,6 @@
             <li class="layer2"><a href="<?php echo($path);?>/pages/products/military.php" class="page" <?php if ($title === 'ATLAS Platform'){echo("id='currentpage'");}?>>Military Drones</a></li>
           </ul>
         </li>
-        <li class="layer1"><a href="<?php echo($path);?>/pages/about.php" class="page" <?php if ($title === 'About Us'){echo("id='currentpage'");}?>>About Us</a></li>
         <li class="layer1" id="layer1sm">
           <a href="<?php echo($path)?>/pages/staff/index.php" class="page" <?php if ($title === 'Meet the Team'){echo("id='currentpage'");}?>>Meet the Team</a>
           <ul class="subnav">
@@ -39,6 +38,7 @@
             <li class="layer2"><a href="<?php echo($path);?>/pages/staff/duncan.php" class="page" <?php if ($title === 'Duncan Priestley'){echo("id='currentpage'");}?>>Duncan Priestley</a></li>
           </ul>
         </li>
+        <li class="layer1"><a href="<?php echo($path);?>/pages/about.php" class="page" <?php if ($title === 'About Us'){echo("id='currentpage'");}?>>About Us</a></li>
         <li class="layer1"><a href="<?php echo($path);?>/pages/contact.php" class="page"  <?php if ($title === 'Contact Us'){echo("id='currentpage'");}?>>Contact Us</a></li>
       </ul>
     </nav>

@@ -13,8 +13,8 @@
                 </p>
                 <h2>Contact info</h2>
                 <ul class="contact_lists">
-                    <li>Phone Number: (1)555-432-1394</li>
-                    <li>Email: mmarana@SpecificDynamics.org</li>
+                    <li>Phone Number: (1)555-432-1391</li>
+                    <li>Email: rlooknauth@SpecificDynamics.org</li>
                 </ul>
             </section>
         </div>

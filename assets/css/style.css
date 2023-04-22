@@ -91,13 +91,16 @@ nav .page{
     padding-left: 40px;
     padding-right: 40px;
 }
-nav .layer1:hover, .layer2:hover, #currentpage{
+nav .layer1:hover, .layer2:hover{
     color: rgb(204, 226, 247);
     background-color: rgb(151, 82, 151);
     border: 2px groove blueviolet;
     border-radius: 2px;
     transition: 0.7s;
     
+}
+#currentpage{
+    background-color: rgb(110, 61, 110);
 }
 .mainnav{
     list-style: none;

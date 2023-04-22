@@ -13,5 +13,5 @@ include($path . '/assets/includes/header.php');
       world.
     </p>
 <?php 
-include($path . '/assets/includes/footer.php')
+include($path . '/assets/includes/footer.php');
 ?>

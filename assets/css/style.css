@@ -91,7 +91,7 @@ nav .page{
     padding-left: 40px;
     padding-right: 40px;
 }
-nav .layer1 .page:hover, .layer2:hover, .currentpage{
+nav .layer1:hover, .layer2:hover, #currentpage{
     color: rgb(204, 226, 247);
     background-color: rgb(151, 82, 151);
     border: 2px groove blueviolet;
@@ -104,10 +104,10 @@ nav .layer1 .page:hover, .layer2:hover, .currentpage{
     display: flex;
     justify-content: space-around;
 }
-.mainnav .layer1, .layer1sm{
+.mainnav .layer1, #layer1sm{
     background-color: rgb(155, 95, 155);
 }
-.mainnav .layer1sm:hover .subnav{
+.mainnav #layer1sm:hover .subnav{
     display: block;
 }
 .subnav{
@@ -138,6 +138,6 @@ staff pages
     display: flex;
     margin: 0px;
 }
-img{
+.content img {
     border: 2px solid black;
 }
